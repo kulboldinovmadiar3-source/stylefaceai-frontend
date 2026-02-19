@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Как работает сайт</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+
+<body>
+<div class="faces-bg">
+
+  <img src="assets/face-shapes/oval.png" class="face face1">
+  <img src="assets/face-shapes/diamond.png" class="face face2">
+  <img src="assets/face-shapes/heart.png" class="face face3">
+  <img src="assets/face-shapes/long.png" class="face face4">
+  <img src="assets/face-shapes/round.png" class="face face5">
+  <img src="assets/face-shapes/rectangular.png" class="face face6">
+  <img src="assets/face-shapes/triangle.png" class="face face7">
+
+</div>
+<!-- NAVBAR -->
+<header class="navbar" id="navbar">
+
+    <div class="nav-container">
+
+        <a href="index.html" class="nav-logo">
+            <img src="assets/logo.png" alt="logo">
+        </a>
+
+        <nav class="nav-menu" id="navMenu">
+            <a href="index.html" class="nav-link">Главная</a>
+            <a href="how-it-works.html" class="nav-link">Как работает сайт</a>
+            <a href="face-shapes.html" class="nav-link">Формы лица</a>
+            <a href="about.html" class="nav-link">О проекте</a>
+        </nav>
+
+        <div class="burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </div>
+
+</header>
+
+<!-- HERO -->
+<section class="how-hero">
+
+    <h1>Как работает StyleFaceAI</h1>
+
+    <p>
+        Искусственный интеллект анализирует форму лица
+        и помогает подобрать прически, которые реально подходят.
+    </p>
+
+</section>
+
+
+<!-- TIMELINE -->
+<section class="timeline">
+
+    <!-- STEP 1 -->
+    <div class="timeline-item reveal">
+
+        <div class="timeline-text">
+            <h2>Загрузите фотографию</h2>
+            <p>
+                Просто загрузите своё фото. Лучше всего подходит
+                снимок, где лицо смотрит прямо в камеру.
+            </p>
+        </div>
+
+        <div class="timeline-img">
+            <img src="assets/steps/step1.jpg">
+        </div>
+
+    </div>
+
+
+    <!-- STEP 2 -->
+    <div class="timeline-item reveal reverse">
+
+        <div class="timeline-text">
+            <h2>ИИ анализирует лицо</h2>
+            <p>
+                Алгоритм определяет ключевые точки лица
+                и анализирует пропорции.
+            </p>
+        </div>
+
+        <div class="timeline-img">
+            <img src="assets/steps/step2.jpg">
+        </div>
+
+    </div>
+
+
+    <!-- STEP 3 -->
+    <div class="timeline-item reveal">
+
+        <div class="timeline-text">
+            <h2>Определяем форму лица</h2>
+            <p>
+                Система сравнивает параметры
+                с базой данных форм лица.
+            </p>
+        </div>
+
+        <div class="timeline-img">
+            <img src="assets/steps/step3.jpg">
+        </div>
+
+    </div>
+
+
+    <!-- STEP 4 -->
+    <div class="timeline-item reveal reverse">
+
+        <div class="timeline-text">
+            <h2>Получаете подбор причесок</h2>
+            <p>
+                Вы увидите список причесок,
+                которые подчеркнут ваши черты.
+            </p>
+        </div>
+
+        <div class="timeline-img">
+            <img src="assets/steps/step4.jpg">
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CTA -->
+<section class="cta-section">
+
+    <h2>Попробуйте прямо сейчас</h2>
+
+    <p>Загрузите фото и получите рекомендации за несколько секунд</p>
+
+    <a href="index.html" class="cta-btn">Попробовать сейчас</a>
+
+</section>
+
+<script src="script-how.js"></script>
+
+</body>
+</html>
